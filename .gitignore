@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.mp3
+*.wav
+
+# Node
+node_modules/
+.next/
+.env.local
+.env*.local
+
+# Data
+backend/data/documents/*
+backend/data/vector_store/*
+!backend/data/documents/.gitkeep
+!backend/data/vector_store/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
